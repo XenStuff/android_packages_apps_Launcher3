@@ -93,6 +93,12 @@
             launcher:logIdOn="613"
             launcher:logIdOff="614" />
 
+        <SwitchPreference
+            android:key="pref_smartspace"
+            android:title="@string/smartspace_pref_title"
+            android:summary="@string/smartspace_pref_summary"
+            android:defaultValue="true" />
+
         <com.android.launcher3.settings.NotificationDotsPreference
             android:key="pref_icon_badging"
             android:title="@string/notification_dots_title"
